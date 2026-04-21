@@ -1,0 +1,6 @@
+{
+  "name": "Moody Player",
+  "description": "Offline-first mobile video player with screen lock and auto-sync features.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+:root {
+  background-color: #0a0502;
+  color-scheme: dark;
+}
+
+body {
+  overscroll-behavior: none;
+  -webkit-tap-highlight-color: transparent;
+  color: #e7e5e4; /* stone-200 */
+}
+
+/* Custom utility for glassmorphism from Immersive UI theme */
+.glass {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.text-accent {
+  color: #f97316; /* orange-500 */
+}
+
+.bg-accent {
+  background-color: #f97316; /* orange-500 */
+}
+
+.bg-accent-hover {
+  background-color: #ea580c; /* orange-600 */
+}
